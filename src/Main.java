@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Random;
 
 public class Main {
@@ -11,6 +12,19 @@ public class Main {
         }
         System.out.println("Сумма трат за месяц составила " +sum +" рублей");
 
+        //Task 2
+        System.out.println("Задание 2");
+        int min = array[0];
+        int max = array[0];
+        for (int i = 1; i < array.length; i++) {
+            if (array [i] < min){
+                min = array[i];
+            }
+            if (array [i] > max){
+                max = array [i];
+            }
+        }
+        System.out.println("Минимальная сумма трат за день составила " +min +" рублей. \nМаксимальная сумма трат за день составила " +max +" рублей.");
 
 
     }
