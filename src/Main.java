@@ -26,6 +26,12 @@ public class Main {
         }
         System.out.println("Минимальная сумма трат за день составила " +min +" рублей. \nМаксимальная сумма трат за день составила " +max +" рублей.");
 
+        //Task 3
+        System.out.println("Задание 3");
+        System.out.println("Средняя сумма трат за месяц составила " +sum/array.length +" рублей");
+
+
+
 
     }
 
